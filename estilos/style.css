@@ -6,3 +6,67 @@ CINZA CLARO #8B8B8C
 CINZA #575859
 PRETO #0B0D0C
 */
+
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body,
+html {
+    background-color: #0B0D0C;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+
+}
+
+section#login>div#imagem {
+    display: block;
+    background: #0B0D0C url(../imagens/pexels-anh-nguyen-18873774\ \(1\).jpg) no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    height: 200px;
+}
+
+section#login>div#formulario {
+    display: block;
+    padding: 10px;
+}
+
+div#formulario>p {
+    font-size: 0.8em;
+}
+
+   div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    
+   }
+   div#formulario > p {
+    font-size: 0.8em;
+   }
