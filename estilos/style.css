@@ -79,6 +79,26 @@ div.campo > label {
 display: none;
 }
 
+div.campo >span {
+    color: white;
+    background-color: black;
+    font-size: 1.2em;
+    width: 30px;
+    padding: 5px;
+    border-radius: 100%;
+    margin: 1%;
+}
+
+div.campo > input {
+    background-color: rgb(190, 190, 196);
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    border-radius: 8px;
+    padding: 4px;
+    width: calc(80% - 60px);
+    transform: translateY(2%);
+    height: 60%;
+}
+
 form > div.campo {
     display: block;
 background-color: #8B8B8C;
@@ -86,7 +106,7 @@ width: 100%;
 height: 40px;
 margin: 5px 0px;
 padding: 1px;
-border-radius: 5px;
+border-radius: 8px;
 
 }
 
@@ -116,7 +136,7 @@ a.botao {
     margin: auto;
     text-align: center;
     font-size: 1em;
-    width: 100%;
+    width: 98%;
     height: 40px;
     background-color: white;
     /* border: 1px solid #575859; */
